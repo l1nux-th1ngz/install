@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# installs grub on uefi systems
-# runs from inside the installation
-# unlike the legacy bios grub script
-
 source /root/instantARCH/moduleutils.sh
 
 if iroot nobootloader; then
